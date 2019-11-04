@@ -865,12 +865,6 @@ static int const RCTVideoUnset = -1;
     [_player pause];
     [_player setRate:0.0];
   } else {
-    if([_ignoreSilentSwitch isEqualToString:@"ignore"]) {
-      [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
-    } else if([_ignoreSilentSwitch isEqualToString:@"obey"]) {
-      [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:nil];
-    }
-    
     if (@available(iOS 10.0, *) && !_automaticallyWaitsToMinimizeStalling) {
       [_player playImmediatelyAtRate:_rate];
     } else {
@@ -982,6 +976,8 @@ static int const RCTVideoUnset = -1;
     [_player setMuted:NO];
   }
   
+  [self applySilentSwitchSettingToAVSession];
+  
   [self setMaxBitRate:_maxBitRate];
   [self setSelectedAudioTrack:_selectedAudioTrack];
   [self setSelectedTextTrack:_selectedTextTrack];
@@ -990,6 +986,25 @@ static int const RCTVideoUnset = -1;
   [self setPaused:_paused];
   [self setControls:_controls];
   [self setAllowsExternalPlayback:_allowsExternalPlayback];
+}
+
+- (void)applySilentSwitchSettingToAVSession {
+  // This is the default, which is to inherit from the system
+  AVAudioSessionCategory audioCategory = AVAudioSessionCategorySoloAmbient;
+  
+  if([_ignoreSilentSwitch isEqualToString:@"ignore"]) {
+    // This ignores the switch, always plays audio while video is playing
+    audioCategory = AVAudioSessionCategoryPlayback;
+  } else if([_ignoreSilentSwitch isEqualToString:@"obey"]) {
+    // This obeys the switch, and will play audio based on the hardware setting
+    audioCategory = AVAudioSessionCategoryAmbient;
+  }
+  
+  NSError *applyCategoryError = nil;
+  [[AVAudioSession sharedInstance] setCategory:audioCategory error:&applyCategoryError];
+  if (applyCategoryError) {
+    NSLog(@"Error occurred applying AVAudioSession category: %@", [applyCategoryError localizedDescription]);
+  }
 }
 
 - (void)setRepeat:(BOOL)repeat {

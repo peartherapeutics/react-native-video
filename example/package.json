@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "node_modules/react-native/packager/packager.sh"
+    "start": "node_modules/react-native/packager/packager.sh",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "dependencies": {
     "react": "15.4.2",
     "react-native": "^0.42.0",
     "react-native-video": "file:../",
-    "react-native-windows": "^0.57.1"
+    "react-native-windows": "^0.61.0",
+    "snyk": "^1.363.0"
   },
   "devDependencies": {
     "rnpm-plugin-windows": "~0.2.3"
-  }
+  },
+  "snyk": true
 }

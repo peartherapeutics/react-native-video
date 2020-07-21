@@ -1,0 +1,679 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native-windows > react-native-local-cli > metro > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug:
+        patched: '2020-07-21T08:47:57.194Z'
+  SNYK-JS-LODASH-567746:
+    - react-native-windows > react-native-local-cli > inquirer > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-react-native-babel-transformer > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-react-native-babel-preset > react-transform-hmr > react-proxy > lodash:
+        patched: '2020-07-21T08:47:57.194Z'
+  'npm:mime:20170907':
+    - react-native-windows > react-native-local-cli > mime:
+        patched: '2020-07-21T08:47:57.194Z'
+  'npm:ms:20170412':
+    - react-native-windows > react-native-local-cli > metro > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > braces > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > nanomatch > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro-config > metro > metro-config > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
+    - react-native-windows > react-native-local-cli > metro > metro-config > metro > metro-cache > metro-core > jest-haste-map > sane > anymatch > micromatch > extglob > expand-brackets > snapdragon > debug > ms:
+        patched: '2020-07-21T08:47:57.194Z'
